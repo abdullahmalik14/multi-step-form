@@ -105,10 +105,10 @@ export default function Home() {
       }));
     }
 
-    if (phone && !/^[0-9]{10}$/.test(phone)) {
+    if (phone && !/^\d{11}$/.test(phone)) {
       setErrors((prevState) => ({
         ...prevState,
-        phone: "Please enter a valid 10-digit phone number",
+        phone: "Please enter a valid 11-digit phone number",
       }));
     } else {
       setErrors((prevState) => ({

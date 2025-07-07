@@ -28,7 +28,7 @@ const UserInfoForm = ({
             type="text"
             name="name"
             id="name"
-            placeholder="e.g. Stephen King"
+            placeholder="e.g. Abdullah Asim"
             value={name}
             onChange={(e) => updateForm({ name: e.target.value })}
             className="w-full"
@@ -42,7 +42,7 @@ const UserInfoForm = ({
             type="text"
             name="email"
             id="email"
-            placeholder="e.g. stephenking@lorem.com"
+            placeholder="e.g. abdullahasim@gmail.com"
             value={email}
             className="w-full"
             onChange={(e) => updateForm({ email: e.target.value })}
@@ -58,7 +58,7 @@ const UserInfoForm = ({
             type="tel"
             name="phone"
             id="phone"
-            placeholder="e.g. +1 234 567 890"
+            placeholder="e.g. 03113241532"
             value={phone}
             className="w-full"
             onChange={(e) => updateForm({ phone: e.target.value })}
